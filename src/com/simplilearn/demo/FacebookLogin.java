@@ -1,7 +1,6 @@
 package com.simplilearn.demo;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.By.ById;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -18,7 +17,7 @@ public static void main(String[] args) {
 			//step-3 set up the base url
 			String base_url="http://www.facebook.com/";
 			
-			//launching facebook
+			//launching facebbok
 			driver.get(base_url);
 			
 			// finding webelement from webpages
@@ -29,7 +28,7 @@ public static void main(String[] args) {
 			System.out.println(password.getAttribute("placeholder"));
 		
 			//sending data to the element we have found
-			email.sendKeys("Alok@gmail.com");
+			email.sendKeys("alok@gmail.com");
 			password.sendKeys("Alok@123");
 			
 			// there is no id for login instead we have name 
