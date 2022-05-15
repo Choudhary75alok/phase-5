@@ -36,7 +36,7 @@ public class FluentWaitDemo {
 				.ignoring(NoSuchElementException.class);
 		
 		
-		WebElement element=wait.until(new Function<WebDriver, WebElement>() {
+		WebElement element =wait.until(new Function<WebDriver, WebElement>() {
 
 			@Override
 			public WebElement apply(WebDriver driver) {
